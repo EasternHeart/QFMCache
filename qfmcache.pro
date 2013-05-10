@@ -4,10 +4,6 @@
 #
 #-------------------------------------------------
 
-QT       += core
-
-QT       -= gui
-
 TARGET = qfmcache
 CONFIG   += console
 CONFIG   -= app_bundle
@@ -15,4 +11,8 @@ CONFIG   -= app_bundle
 TEMPLATE = app
 
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    doc.cpp
+
+HEADERS += \
+    general.h

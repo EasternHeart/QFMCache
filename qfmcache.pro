@@ -16,3 +16,6 @@ SOURCES += main.cpp \
 
 HEADERS += \
     general.h
+
+OTHER_FILES += \
+    hello.doc
